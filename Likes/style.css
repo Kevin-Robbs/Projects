@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.main_wrapper{
+    width: 40em;
+    margin: 0 auto;
+}
+
+.title_bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.title_bar h1{
+    margin: .25em .5em;
+}
+
+#feed_title{
+    color: black;
+    text-align: center;
+    margin: .2em;
+}
+
+.body_wrapper{
+    width: 40em;
+    height: 50em;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.profile_container{
+    width: 8em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.profile_container *{
+    margin-bottom: 1.5em;
+}
+
+.profile_container img{
+    width: 4em;
+    height: 4em;
+}
+
+.comments_container{
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.comment{
+    width: 30em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px 1px black;
+    display: inline;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+.comment p{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.likes p{
+    margin: .5em;
+}
+
+.likes button {
+    background-color: #ffd966;
+    width: 4em;
+    height: 2em;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    line-height: 2em;
+}

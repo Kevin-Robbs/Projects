@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form!</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="main_wrapper">
+        <form action="/process" method="post">
+            <div>
+                <label for="first_name">First Name:*</label>
+                <input type="text" name="first_name" id="first_name" required>
+            </div>
+            <div>
+                <label for="last_name">Last Name:*</label>
+                <input type="text" name="last_name" id="last_name" required>
+            </div>
+            <div>
+                <label for="email">Email Address:*</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password:*</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="c_password">Confirm Password:*</label>
+                <input type="password" name="c_password" id="password">
+            </div>
+            <div>
+                <label for="bday">Birthday:</label>
+                <input type="date" name="bday" id="bday">
+            </div>
+            <label for="g_identity">Gender Identity:</label>
+            <div>
+                <input type="radio" name="male_identity" id="m_identity">
+                <label for="m_identity">Male</label>
+                <input type="radio" name="female_identity" id="f_identity">
+                <label for="f_identity">Female</label>
+                <input type="radio" name="idk_identity" id="idk_identity">
+                <label for="idk_identity">I prefer not to answer</label>
+            </div>
+            <label for="bio">A brief description about myself:</label>
+            <div>
+                <textarea name="bio" id="bio" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="fav_lang">Favorite Language:</label> 
+                <select name="lang" id="lang">
+                    <option value="python">Python</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">Yes, I would like to receive periodic email updates</label>
+            </div>
+            <input type="submit" name="submit" id="submit" value="Create Account">
+        </form>
+    </div>
+</body>
+</html>

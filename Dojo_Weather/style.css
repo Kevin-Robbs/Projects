@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-banner{
+    margin: 0;
+    width: 100%;
+    height: 5em;
+    background-color: #9fc5f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-container{
+    color: white;
+}
+
+.location-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+    height: 100%;
+}
+
+.location{
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.location:hover{
+    background-color: #69a6f7;
+}
+
+.location h3{
+    margin: 1em;
+}
+
+.body-wrapper{
+    width: 60%;
+    margin: 1em auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.body-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+}
+
+.temp-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5em;
+}
+
+#temperature{
+    background-color: #9fc5f8;
+    border: 0px;
+    height: 25px;
+    box-shadow: 1.5px 1.5px 3px rgb(150, 150, 150);
+}
+
+hr{
+    margin: .5em auto;
+    width: 100%;
+}
+
+.weather-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.forecast-day{
+    width: 25%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+    box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+
+.forecast-day:hover{
+    background-color: #bfbfbf;
+}
+
+.forecast-day h4{
+    text-align: center;
+    margin-top: .5em;
+}
+
+.forecast-day img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+}
+
+.temp-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: .5em;
+}
+
+#high{
+    color: #cd0e00;
+    font-weight: bolder;
+}
+
+#low{
+    color: #006ae2;
+    font-weight: bolder;
+}
+
+.cookie-banner{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: .5em auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #eeeeee;
+    border: 0;
+    box-shadow: 0px 0px 10px rgb(150, 150, 150);
+}
+
+.cookie-banner img{
+    width: 3em;
+    height: 3em;
+}
+
+.cookie-message {
+    width: 70%;
+    margin: .5em;
+}
+
+.cookie-message p{
+    font-size: small;
+}
+
+.cookie-but{
+    width: 8em;
+    height: 2em;
+    margin-right: .5em;
+    background-color: #69a6f7;
+    border: 0px none;
+    box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+
+.cookie-but:hover{
+    background-color: #5383c3;
+}

@@ -1,0 +1,59 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.img_wrapper{
+    padding: 10px;
+}
+
+.social_wrapper{
+    margin: 30px 0px 30px 0px;
+
+}
+
+.social_wrapper img{
+    padding: 10px 10px 10px 10px;
+}
+
+.message_wrapper{
+    margin: 30px;
+}
+
+#github{
+    border-radius: 50%;
+}
+
+#submit_info{
+    height: 40px;
+    width: 120px;
+    background-color: #266dba;
+    border-radius: 10px;
+    border-style: none;
+    border-color: black;
+    font-size: medium;
+}
+
+#submit_info:hover{
+    background-color: rgb(118, 189, 240);
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact_wrapper #submit_info{
+    margin: 20px;
+}
+
+.credits_wrapper{
+    margin: 100px 0px 0px 0px;
+}
